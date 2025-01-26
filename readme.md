@@ -1,77 +1,45 @@
-# Chatbot AI Lokal
+# 🤖 Chatbot AI Lokal
 
-Sebuah implementasi chatbot AI yang dapat dijalankan secara lokal dengan antarmuka web yang interaktif dan kemampuan untuk menjalankan kode HTML dan JavaScript secara langsung.
+Chatbot AI yang bisa jalan di laptop/PC kamu sendiri! Perfect buat yang mau punya asisten AI pribadi tanpa perlu koneksi internet.
 
-## 🌟 Fitur Utama
+## 📋 Yang Harus Disiapkan
 
-- Antarmuka pengguna yang responsif dan modern
-- Dukungan untuk menjalankan kode HTML dan JavaScript secara real-time
-- Integrasi dengan model AI untuk memberikan respons cerdas
-- Fitur khusus untuk mencari dan menampilkan resep masakan
-- Kemampuan untuk menampilkan informasi nutrisi makanan
-- Panel kode terpisah dengan editor Ace
-- Mendukung format Markdown untuk output chat
-- Tampilan preview kode secara langsung
+1. **[LM Studio](https://lmstudio.ai)** - ***WAJIB INSTALL!***
+   - Download & install dulu LM Studio
+   - Download model AI (rekomendasi: phi-2, mistral, atau neural-chat)
+   - Jalanin modelnya di LM Studio
+   - Pastiin servernya jalan di `localhost:1234`
 
-## 🛠️ Teknologi yang Digunakan
+2. **Web Browser Modern**
+   - Chrome, Firefox, Edge - yang terbaru ya!
 
-- HTML/CSS/JavaScript
-- Ace Editor untuk pengeditan kode
-- Marked.js untuk parsing Markdown
-- Tailwind CSS untuk styling
-- Font Awesome untuk ikon
-- Axios untuk HTTP requests
+## 🚀 Cara Pakai
 
-## 📋 Persyaratan Sistem
+1. Clone repo ini atau download ZIP
+2. Jalanin LM Studio, load model AI-nya
+3. Buka `index.html` di browser
+4. Mulai chat! 
 
-- Web browser modern yang mendukung JavaScript ES6+
-- Server lokal yang menjalankan API AI (port 1234)
-- Koneksi internet untuk memuat dependensi eksternal
+## 🍳 Fitur Resep
 
-## 🚀 Cara Menggunakan
+Bisa tanya-tanya soal masakan nih:
+- `resep [nama makanan]` - Mau masak apa hari ini?
+- `cari resep [tag]` - Lagi pengen yang pedas? Atau yang berkuah?
+- `masakan [cuisine]` - Mau masak makanan daerah mana?
+- `nutrisi [nama makanan]` - Diet? Cek kalorinya dulu!
 
-1. Clone repositori ini ke komputer lokal Anda
-2. Pastikan server API berjalan di `http://localhost:1234`
-3. Buka file `index.html` di browser web
-4. Pilih model AI yang ingin digunakan dari dropdown
-5. Mulai chat dengan bot!
+## ⚡ Fitur Keren
 
-### Perintah Khusus untuk Resep
+- Chat yang responsif & modern
+- Bisa langsung nyoba kode HTML & JavaScript
+- Preview kode realtime
+- Support Markdown
+- Editor kode yang canggih
 
-- `resep [nama makanan]` - Menampilkan instruksi memasak
-- `cari resep [tag]` - Mencari resep berdasarkan tag
-- `masakan [cuisine]` - Menampilkan resep berdasarkan jenis masakan
-- `nutrisi [nama makanan]` - Menampilkan informasi kalori dan nutrisi
-
-## ⚙️ Konfigurasi
-
-Konfigurasi utama dapat diubah di bagian awal file JavaScript:
-
-```javascript
-const API_URL = 'http://localhost:1234';
-```
-
-## 💡 Fitur Editor Kode
-
-- Dukungan syntax highlighting untuk HTML dan JavaScript
-- Preview kode secara real-time
-- Kemampuan untuk menjalankan kode secara langsung
-- Toggle antara mode HTML dan JavaScript
-- Tombol clear untuk membersihkan editor
-
-## 👨‍💻 Developer
+## 👨‍💻 Developer Contact
 
 - Instagram: [@sedotphp](https://instagram.com/sedotphp)
 - GitHub: [dypras666](https://github.com/dypras666)
 
-## 📝 Lisensi
-
-Proyek ini dilisensikan di bawah ketentuan yang ditetapkan oleh pengembang. Silakan hubungi pengembang untuk informasi lebih lanjut.
-
-## 🤝 Kontribusi
-
-Kontribusi, issues, dan feature requests sangat diterima. Jangan ragu untuk memeriksa halaman issues jika Anda ingin berkontribusi.
-
 ---
-
-Dibuat dengan ❤️ oleh [@sedotphp](https://instagram.com/sedotphp)
+Made with ☕ by [@sedotphp](https://instagram.com/sedotphp)
