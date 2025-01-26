@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+     
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-white m-0 font-sans">
+    <div class="grid grid-cols-[1fr] h-screen" id="mainContainer">
+        <!-- Chat Section -->
+        <div class="flex flex-col h-full relative">
+            <div class="flex flex-col h-full">
+                <div class="chat-container">
+                    <div id="chatContainer" class="p-6 pb-32">
+                        <!-- Chat messages will be added here -->
+                    </div>
+                
+                    <!-- Input Area -->
+                    <div class="fixed bottom-0 left-0 w-full p-6 bg-gradient-to-t from-gray-900 via-gray-900/95 to-transparent">
+                        <div class="max-w-4xl mx-auto">
+                            <div class="relative">
+                                <!-- Top Controls -->
+                                <div class="flex gap-4 mb-4">
+                                    <button class="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-blue-500/20 group">
+                                        <i class="fas fa-plus mr-2 group-hover:rotate-90 transition-transform duration-300"></i> New Chat
+                                    </button>
+                                    <select id="modelSelect" class="flex-1 p-2 bg-gray-800/50 border border-gray-700 text-white rounded-lg">
+                                    </select>
+                                </div>
+                                
+                                <!-- Input Field -->
+                                <textarea 
+                                    id="userInput" 
+                                    class="w-full min-h-[56px] max-h-[200px] bg-gray-800/90 backdrop-blur-sm border border-gray-700 rounded-2xl py-4 px-5 text-white resize-none"
+                                    placeholder="Type your message here..."
+                                    rows="1"
+                                ></textarea>
+                                
+                                <!-- Send Button -->
+                                <div class="absolute right-4 bottom-4">
+                                    <button id="sendButton" class="text-white px-4 py-2 rounded-lg hover:bg-gray-700/50 transition-all duration-300 group">
+                                        <div class="hidden loading-spinner"></div>
+                                        <i class="fas fa-stop hidden"></i>
+                                        <i class="fas fa-paper-plane text-lg"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Code Panel (Hidden by default) -->
+        <div id="codePanel" class="h-screen w-1/2 fixed right-0 top-0 border-l border-gray-700 hidden">
+            <div class="h-16 p-4 border-b border-gray-700 flex gap-2">
+                <button id="htmlTab" class="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700">HTML</button>
+                <button id="jsTab" class="px-4 py-2 bg-gray-700 rounded hover:bg-gray-600">JavaScript</button>
+                <button id="runBtn" class="px-4 py-2 bg-green-600 rounded hover:bg-green-700 ml-auto">
+                    <i class="fas fa-play mr-2"></i>Run
+                </button>
+                <button id="clearBtn" class="px-4 py-2 bg-red-600 rounded hover:bg-red-700">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+            <div class="h-[calc(100vh-64px)] grid grid-rows-2 bg-gray-800">
+                <div id="editor" class="w-full h-full"></div>
+                <div id="output" class="bg-white h-full">
+                    <iframe id="preview" class="w-full h-full border-0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.6/ace.js"></script>
+    <script src="ai.js?v121"></script>
+</body>
+</html>

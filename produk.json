@@ -1,0 +1,81 @@
+{
+    "products": {
+      "clothing": [
+        {
+          "id": "CLT001",
+          "name": "Dress untuk olah raga",
+          "category": "dress",
+          "price": 299000,
+          "releaseDate": "2024-01-15",
+          "stock": 50,
+          "sizes": ["S", "M", "L", "XL"],
+          "colors": ["Blue", "Pink", "White"],
+          "features": ["Lightweight", "Cotton", "Floral pattern"],
+          "recommendations": {
+            "occasions": ["Casual", "Beach", "Party"],
+            "matchWith": ["Sandals", "Straw hat", "Belt"]
+          }
+        },
+        {
+          "id": "CLT002",
+          "name": "Jaket Gaul",
+          "category": "outerwear",
+          "price": 599000,
+          "releaseDate": "2024-01-20",
+          "stock": 30,
+          "sizes": ["M", "L", "XL"],
+          "colors": ["Blue", "Black"],
+          "features": ["Denim", "Button-up", "Pockets"],
+          "recommendations": {
+            "occasions": ["Casual", "Street style"],
+            "matchWith": ["T-shirt", "Jeans", "Sneakers"]
+          }
+        },
+        {
+          "id": "CLT003",
+          "name": "Blazer untuk ke cafe",
+          "category": "formal",
+          "price": 1299000,
+          "releaseDate": "2024-01-25",
+          "stock": 20,
+          "sizes": ["S", "M", "L"],
+          "colors": ["Black", "Navy", "Grey"],
+          "features": ["Wool blend", "Lined", "Professional"],
+          "recommendations": {
+            "occasions": ["Office", "Formal events", "Business meetings"],
+            "matchWith": ["Dress shirt", "Slacks", "Dress shoes"]
+          }
+        },
+        {
+          "id": "CLT004",
+          "name": "Basic Cotton Tee",
+          "category": "tops",
+          "price": 99000,
+          "releaseDate": "2023-12-10",
+          "stock": 100,
+          "sizes": ["XS", "S", "M", "L", "XL"],
+          "colors": ["White", "Black", "Grey", "Navy"],
+          "features": ["100% Cotton", "Crew neck", "Basic essential"],
+          "recommendations": {
+            "occasions": ["Casual", "Daily wear", "Workout"],
+            "matchWith": ["Jeans", "Shorts", "Skirts"]
+          }
+        },
+        {
+          "id": "CLT005",
+          "name": "Designer Evening Gown",
+          "category": "formal",
+          "price": 2499000,
+          "releaseDate": "2024-01-30",
+          "stock": 10,
+          "sizes": ["S", "M", "L"],
+          "colors": ["Red", "Black", "Gold"],
+          "features": ["Silk", "Embellished", "Full-length"],
+          "recommendations": {
+            "occasions": ["Gala", "Wedding", "Formal events"],
+            "matchWith": ["Heels", "Clutch", "Statement jewelry"]
+          }
+        }
+      ]
+    }
+  }

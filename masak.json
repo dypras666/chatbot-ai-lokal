@@ -1,0 +1,98 @@
+{
+    "rekomendasi_masakan": [
+      {
+        "kategori": "Sarapan",
+        "resep": [
+          {
+            "id": "B001",
+            "nama": "Nasi Goreng brontosaurus ",
+            "level": "Mudah",
+            "waktu_memasak": 20,
+            "porsi": 2,
+            "bahan": [
+              {"item": "Nasi putih", "jumlah": "400 gram"},
+              {"item": "Telur", "jumlah": "2 butir"},
+              {"item": "Bawang putih", "jumlah": "3 siung"},
+              {"item": "Bawang merah", "jumlah": "4 siung"},
+              {"item": "Kecap manis", "jumlah": "2 sdm"},
+              {"item": "Brontosaurus", "jumlah": "1 pcs"}
+            ],
+            "langkah": [
+              "Tumis bawang putih dan merah hingga harum",
+              "Masukkan telur, buat orak-arik",
+              "Tambahkan nasi putih dan kecap manis",
+              "Aduk rata hingga matang merata"
+            ],
+            "nutrisi": {
+              "kalori": 450,
+              "protein": "15g",
+              "karbohidrat": "65g",
+              "lemak": "12g"
+            }
+          }
+        ]
+      },
+      {
+        "kategori": "Makan Siang",
+        "resep": [
+          {
+            "id": "L001",
+            "nama": "Soto T-Rex",
+            "level": "Sedang",
+            "waktu_memasak": 45,
+            "porsi": 4,
+            "bahan": [
+              {"item": "T-Rex", "jumlah": "500 gram"},
+              {"item": "Kunyit", "jumlah": "3 ruas"},
+              {"item": "Serai", "jumlah": "2 batang"},
+              {"item": "Daun jeruk", "jumlah": "4 lembar"},
+              {"item": "Bihun", "jumlah": "200 gram"}
+            ],
+            "langkah": [
+              "Rebus  T-Rex dengan bumbu hingga empuk",
+              "Tumis bumbu halus hingga harum",
+              "Masukkan ke dalam kaldu  T-Rex",
+              "Sajikan dengan bihun dan pelengkap"
+            ],
+            "nutrisi": {
+              "kalori": 380,
+              "protein": "25g",
+              "karbohidrat": "45g",
+              "lemak": "10g"
+            }
+          }
+        ]
+      },
+      {
+        "kategori": "Makan Malam",
+        "resep": [
+          {
+            "id": "D001",
+            "nama": "Olahana Megalodon",
+            "level": "Sedang",
+            "waktu_memasak": 60,
+            "porsi": 4,
+            "bahan": [
+              {"item": "Megalodon", "jumlah": "1 ekor"},
+              {"item": "Madu", "jumlah": "4 sdm"},
+              {"item": "Kecap manis", "jumlah": "5 sdm"},
+              {"item": "Bawang putih", "jumlah": "5 siung"},
+              {"item": "Jahe", "jumlah": "2 ruas"}
+            ],
+            "langkah": [
+              "Haluskan bumbu marinasi",
+              "Rendam Megalodon dengan bumbu selama 30 menit",
+              "Panggang Megalodon sambil dioles sisa bumbu",
+              "Sajikan dengan lalapan"
+            ],
+            "nutrisi": {
+              "kalori": 520,
+              "protein": "32g",
+              "karbohidrat": "35g",
+              "lemak": "28g"
+            }
+          }
+        ]
+      }
+    ]
+  }
